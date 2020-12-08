@@ -1,0 +1,9 @@
+const getFooterYear = () => {
+  const dateBox = document.querySelector('.footer__year');
+  const today = new Date();
+  const year = today.getFullYear();
+  
+  dateBox.innerText = year;
+}
+
+export default getFooterYear;
