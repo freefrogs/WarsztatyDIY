@@ -70,6 +70,7 @@ body {
   background-image: url(../assets/bg.png);
   background-size: 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .container {
   width: 60%;
@@ -77,9 +78,43 @@ body {
   margin: 7% auto 3%;
   background-color: $main-dark;
   padding-bottom: 5em;
+  box-shadow: 0 0 20px $main-dark;
 }
 .footer__p {
   margin: 15px auto;
   text-align: center;
   color: $main-dark;
+}
+
+/* social media */
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 2%;
+  transform: translateY(-50%);
+  &__link {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: $main-dark-2;
+    position: relative;
+    transition: .4s ease-in-out;
+    &:hover {
+      box-shadow: 0 0 5px $main-dark-2;
+      background-color: $details;
+    }
+  }
+  &__img {
+    width: 60%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
 }

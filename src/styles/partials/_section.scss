@@ -1,6 +1,7 @@
 .section {
   padding: 2em;
   position: relative;
+  box-shadow: 0 0 10px $main-dark;
   &__p {
     line-height: 1.6em;
     padding-bottom: 0.5em;
@@ -18,7 +19,7 @@
   }
   &__attention {
     text-decoration-line: underline;
-    text-decoration-color: $main-dark;
+    text-decoration-color: $details;
     font-size: 1.2em;
   }
   &__main {
