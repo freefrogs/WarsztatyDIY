@@ -1,0 +1,45 @@
+.section {
+  padding: 2em;
+  position: relative;
+  &__p {
+    line-height: 1.6em;
+    padding-bottom: 0.5em;
+  }
+  &__list {
+    list-style-type: square;
+    list-style-position: inside;
+    &--org {
+      list-style-position: outside;
+      padding-left: 1.2em;
+    }
+  }
+  &__item {
+    line-height: 1.6em;
+  }
+  &__attention {
+    text-decoration-line: underline;
+    text-decoration-color: $main-dark;
+    font-size: 1.2em;
+  }
+  &__main {
+    background-color: $main-dark-2;
+    left: 15%;
+    padding-left: 5em;
+    &::before {
+      content: '';
+      height: 60%;
+      width: 20%;
+      position: absolute;
+      left: -13%;
+      top: -29%;
+      background-image: url(../assets/logo_white.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+  &__org {
+    background-color: $main-dark-2;
+    left: -15%;
+    padding-left: 2em;
+  }
+}

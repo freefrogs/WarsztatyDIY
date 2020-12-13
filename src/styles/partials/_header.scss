@@ -1,0 +1,11 @@
+header {
+  position: relative;
+  padding: 1.5em 0;
+}
+.header {
+  font-weight: 400;
+  &__main {
+    text-align: center;
+    font-size: 4em;
+  }
+}

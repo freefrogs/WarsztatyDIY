@@ -62,11 +62,24 @@ img {
 /* main */
 body {
   font-family: $main-font;
-  color: $main-dark;
+  color: $main-light;
   background-color: $main-light;
   max-width: 1920px;
   min-width: 375px;
   margin: 0 auto;
   background-image: url(../assets/bg.png);
   background-size: 100%;
+  background-repeat: no-repeat;
+}
+.container {
+  width: 60%;
+  min-height: 80vh;
+  margin: 7% auto 3%;
+  background-color: $main-dark;
+  padding-bottom: 5em;
+}
+.footer__p {
+  margin: 15px auto;
+  text-align: center;
+  color: $main-dark;
 }
