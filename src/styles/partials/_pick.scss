@@ -1,0 +1,26 @@
+.pick {
+  text-align: center;
+  margin: 4% auto;
+  &__h {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+  }
+  &__button {
+    cursor: pointer;
+    background-color: $main-dark-2;
+    border: none;
+    color: $main-light;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .4s ease;
+    &:hover {
+      background-color: $details;
+      transform: scale(1.05);
+    }
+    &--active {
+      background-color: $details;
+    }
+  }
+}
