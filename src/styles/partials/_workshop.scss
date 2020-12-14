@@ -1,0 +1,26 @@
+.workshop {
+  background-color: $main-dark-2;
+  padding: 1.5em 10% 1.5em 1.5em;
+  width: 60%;
+  //box-shadow: 0 0 10px $main-dark;
+  &__name {
+    font-size: 1.2em;
+  }
+  &__img {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: -3%;
+    right: -2%;
+    box-shadow: 0 0 10px $main-dark;
+  }
+  &__link {
+    color: $main-light;
+    font-weight: 600;
+    transition: .4s;
+    text-decoration-color: transparent;
+    &:hover {
+      text-decoration-color: $main-light;
+    }
+  }
+}
