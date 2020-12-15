@@ -7,5 +7,8 @@ header {
   &__main {
     text-align: center;
     font-size: 4em;
+    @media (max-width: $s) {
+      font-size: 2em;
+    }
   }
 }

@@ -4,6 +4,9 @@
   &__h {
     font-size: 1.5em;
     padding-bottom: 1em;
+    @media (max-width: $s) {
+      font-size: 1em;
+    }
   }
   &__button {
     cursor: pointer;
@@ -21,6 +24,9 @@
     }
     &--active {
       background-color: $details;
+    }
+    @media (max-width: $s) {
+      font-size: 0.8em;
     }
   }
 }

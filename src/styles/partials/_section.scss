@@ -5,17 +5,28 @@
   &__p {
     line-height: 1.6em;
     padding-bottom: 0.5em;
+    @media (max-width: $s) {
+      font-size: 0.8em;
+    }
   }
   &__list {
     list-style-type: square;
     list-style-position: inside;
+    @media (max-width: $xs) {
+      list-style-position: outside;
+      padding-left: 1em;
+    }
     &--org {
       list-style-position: outside;
       padding-left: 1.2em;
     }
+    
   }
   &__item {
     line-height: 1.6em;
+    @media (max-width: $s) {
+      font-size: 0.8em;
+    }
   }
   &__attention {
     text-decoration-line: underline;
@@ -36,17 +47,49 @@
       background-image: url(../assets/logo_white.png);
       background-repeat: no-repeat;
       background-size: contain;
+      @media (max-width: $l) {
+        left: -12%;
+        top: -15%;
+      }
+      @media (max-width: $m) {
+        left: -3%;
+        top: -24%;
+        height: 30%;
+      }
+      @media (max-width: $xs) {
+        left: -10%;
+      }
+    }
+    @media (max-width: $l) {
+      left: 10%;
+    }
+    @media (max-width: $m) {
+      left: 5%;
+      padding-left: 2em;
     }
   }
   &__org {
     background-color: $main-dark-2;
     left: -15%;
     padding-left: 2em;
+    @media (max-width: $l) {
+      left: -10%;
+    }
+    @media (max-width: $m) {
+      left: 5%;
+    }
   }
   &__workshop {
     background-color: $details;
     width: 120%;
     left: -10%;
     margin: 5% 0 4%;
+    @media (max-width: $l) {
+      width: 110%;
+      left: -5%;
+    }
+  }
+  @media (max-width: $s) {
+    padding: 1em;
   }
 }
