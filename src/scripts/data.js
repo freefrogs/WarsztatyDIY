@@ -6,7 +6,7 @@ const workshops = [
     'link': 'https://www.youtube.com/watch?v=BYm2aYueoaw',
     'duration': 'Warsztaty 2-dniowe (po 5h)',
     'amount': 'Ilość uczestników: od 4 do 6',
-    'img': '../src/assets/a.jpg'
+    'img': './assets/a.jpg'
   },
   {
     'id': '2',
@@ -15,7 +15,7 @@ const workshops = [
     'link': '',
     'duration': 'Warsztaty 1-dniowe (5h)',
     'amount': 'Ilość uczestników: od 5 do 8',
-    'img': '../src/assets/b.jpg'
+    'img': './assets/b.jpg'
   },
   {
     'id': '3',
@@ -24,7 +24,7 @@ const workshops = [
     'link': '',
     'duration': 'Warsztaty 1-dniowe (5h)',
     'amount': 'Ilość uczestników: od 5 do 8',
-    'img': '../src/assets/c.jpg'
+    'img': './assets/c.jpg'
   },
   {
     'id': '4',
@@ -33,7 +33,7 @@ const workshops = [
     'link': 'https://www.youtube.com/watch?v=ivATjuEPMkY&list=PLPhdidvrfBiAYtqLdgzfn0qRHbGbXaq8F',
     'duration': 'Warsztaty 1-dniowe (5h)',
     'amount': 'Ilość uczestników: od 5 do 8',
-    'img': '../src/assets/d.jpg'
+    'img': './assets/d.jpg'
   }
 ];
 
