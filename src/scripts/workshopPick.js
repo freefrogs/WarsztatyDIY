@@ -28,8 +28,8 @@ const pickWorkshop = () => {
           yt.style.opacity = '0';
         } else if (el === 'img') {
           prop.src = workshopData[0].img;
+          prop.alt = workshopData[0].name;
         } else {
-          console.log(workshopData[0][el]);
           prop.innerHTML = workshopData[0][el];
         }
       }
